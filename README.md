@@ -1,36 +1,100 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# InfluencerFlow AI - Landing Page
 
-## Getting Started
+## 🚀 One Click. AI Negotiates. Deal Done.
 
-First, run the development server:
+A sophisticated landing page for InfluencerFlow AI - the first platform where AI handles your influencer negotiations through voice calls. Built for a 3-day buildathon MVP.
+
+## ✨ Features
+
+- **Modern Design**: Sophisticated pastel color palette with responsive design
+- **AI Call Demo**: Embedded YouTube demonstration of AI voice negotiations
+- **8 Key Sections**: Hero, Features, AI Demo, How It Works, Benefits, FAQ, CTA, Footer
+- **Optimized Performance**: 86.5 kB optimized production bundle
+- **SEO Ready**: Next.js 14 with proper meta tags and structure
+
+## 🛠️ Tech Stack
+
+- **Framework**: Next.js 14.1.0
+- **Styling**: Tailwind CSS 3.3.0
+- **Language**: TypeScript
+- **Deployment**: Netlify (configured)
+
+## 🎨 Design Highlights
+
+- **Sophisticated Color Palette**: 
+  - Pastel Grey (#F8F9FA to #202124)
+  - Pastel Maroon (#FDF2F2 to #6B2626) 
+  - Pastel Black (#F7F7F7 to #000000)
+- **Interactive Elements**: Hover effects, gradient backgrounds
+- **Responsive**: Mobile-first design approach
+
+## 🚀 Quick Start
 
 ```bash
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Build for production
+npm run build
+
+# Start production server
+npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📁 Project Structure
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+src/
+├── app/
+│   ├── layout.tsx
+│   ├── page.tsx
+│   └── globals.css
+└── components/
+    ├── Hero.tsx
+    ├── Features.tsx
+    ├── AICallSection.tsx
+    ├── HowItWorks.tsx
+    ├── Benefits.tsx
+    ├── FAQ.tsx
+    ├── CTASection.tsx
+    └── Footer.tsx
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🎯 Key Metrics
 
-## Learn More
+- **80% Time Saved**: AI-powered negotiations vs traditional methods
+- **95% Deal Success**: Higher success rate with AI matching
+- **60% Cost Reduction**: Automated operations reduce overhead
 
-To learn more about Next.js, take a look at the following resources:
+## 🌐 Deployment
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Configured for Netlify deployment with:
+- `netlify.toml` configuration
+- Optimized Next.js build settings
+- Static export capabilities
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🔗 Live Demo
 
-## Deploy on Vercel
+- **AI Call Demo**: [YouTube](https://youtu.be/mJBshNapLiU)
+- **Landing Page**: Ready for deployment
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📧 Contact & Waitlist
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Google Form integration for waitlist signup
+- Contact sections in footer
+- Social media links configured
+
+## 🏆 Buildathon Project
+
+Created as part of a 3-day MVP buildathon demonstrating:
+- Rapid prototyping capabilities
+- Modern web development practices
+- AI/Voice technology integration concepts
+- Market validation approach
+
+---
+
+**Built with ❤️ for the future of influencer marketing**
