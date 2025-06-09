@@ -5,7 +5,7 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'InfluencerFlow AI - Transform Your Influencer Marketing',
+  title: 'Flow - Transform Your Influencer Marketing',
   description: 'AI-powered influencer marketing platform with automated negotiations',
 }
 

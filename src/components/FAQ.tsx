@@ -4,24 +4,24 @@ import { useState } from 'react'
 
 const faqs = [
   {
-    question: "How does the AI voice negotiation work?",
-    answer: "Our AI uses advanced natural language processing to conduct real-time voice negotiations with creators. It follows your preset guidelines for budget, deliverables, and terms while maintaining a natural conversation flow."
+    question: "How does the Voice AI know what to negotiate?",
+    answer: "You set your negotiation guidelines, budget ranges, and brand requirements upfront. Our AI follows these parameters exactly while adapting to the conversation flow. You maintain full control over what terms are acceptable."
   },
   {
-    question: "What happens if the AI negotiation needs human intervention?",
-    answer: "While our AI handles most negotiations successfully, we provide an option to seamlessly transition to human support if needed. You'll be notified immediately if any escalation is required."
+    question: "Is this replacing human relationships in marketing?",
+    answer: "Not at all! We're automating the tedious negotiation process so you can focus on building authentic relationships with creators. The AI handles logistics while you focus on creative collaboration and brand storytelling."
   },
   {
-    question: "How do you ensure the security of negotiations?",
-    answer: "All AI calls are encrypted end-to-end and recorded for transparency. We follow enterprise-grade security protocols and comply with data protection regulations."
+    question: "When will the platform be available?",
+    answer: "We're launching our beta program soon! Join the waitlist to be among the first to experience AI-powered influencer marketing. Beta users get early access and special pricing."
   },
   {
-    question: "Can I customize the AI's negotiation style?",
-    answer: "Yes! You can set your preferred negotiation style, tone, and parameters. The AI will adapt to represent your brand voice while maintaining professional standards."
+    question: "What platforms do you support?",
+    answer: "We're starting with Instagram, the largest influencer marketing platform."
   },
   {
-    question: "Which languages does the AI call support?",
-    answer: "Currently, just English but soon the user will be able to communicate in Hindi too."
+    question: "How much will it cost?",
+    answer: "We're still finalizing pricing based on beta feedback. Waitlist members will receive exclusive early-bird pricing and be the first to know about our pricing tiers when we launch."
   }
 ]
 
@@ -29,30 +29,30 @@ export default function FAQ() {
   const [openIndex, setOpenIndex] = useState<number | null>(null)
 
   return (
-    <div className="py-24 bg-gradient-to-b from-pastel-grey-100 to-white">
+    <section className="py-16 md:py-24 bg-gradient-to-b from-neutral-50 to-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center">
-          <h2 className="text-3xl font-bold text-pastel-black-900">
+        <div className="text-center mb-16">
+          <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 mb-4">
             Frequently Asked Questions
           </h2>
-          <p className="mt-4 text-xl text-pastel-grey-700">
-            Everything you need to know about InfluencerFlow AI
+          <p className="text-lg text-neutral-600 max-w-2xl mx-auto">
+            Everything you need to know about Flow
           </p>
         </div>
 
-        <div className="mt-16 max-w-3xl mx-auto">
+        <div className="max-w-3xl mx-auto">
           <div className="space-y-4">
             {faqs.map((faq, index) => (
               <div
                 key={index}
-                className="bg-white/90 backdrop-blur-sm rounded-lg shadow-lg border border-pastel-grey-300 hover:shadow-xl transition-all duration-300 hover:border-primary-300"
+                className="bg-white rounded-xl shadow-lg border border-neutral-200 hover:shadow-xl transition-all duration-300 hover:border-primary-300"
               >
                 <button
-                  className="w-full px-6 py-4 text-left focus:outline-none focus:ring-2 focus:ring-primary-300 focus:ring-opacity-50 rounded-lg"
+                  className="w-full px-6 py-4 text-left focus:outline-none focus:ring-2 focus:ring-primary-300 focus:ring-opacity-50 rounded-xl"
                   onClick={() => setOpenIndex(openIndex === index ? null : index)}
                 >
                   <div className="flex justify-between items-center">
-                    <h3 className="text-lg font-medium text-pastel-black-900">
+                    <h3 className="text-lg font-semibold text-neutral-900">
                       {faq.question}
                     </h3>
                     <span className="ml-6 flex-shrink-0 text-primary-600 font-bold text-xl">
@@ -62,7 +62,7 @@ export default function FAQ() {
                 </button>
                 {openIndex === index && (
                   <div className="px-6 pb-4">
-                    <p className="text-pastel-grey-700">{faq.answer}</p>
+                    <p className="text-neutral-700 leading-relaxed">{faq.answer}</p>
                   </div>
                 )}
               </div>
@@ -70,6 +70,6 @@ export default function FAQ() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 } 
