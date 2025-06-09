@@ -3,23 +3,23 @@ import React from 'react';
 
 const benefits = [
   {
-    title: "Save 80% Time",
-    description: "What took days now takes minutes with AI-powered negotiations",
-    metric: "80%",
+    title: "Save Time",
+    description: "A single click to find the perfect set of creators for your brand",
+    icon: "🕒",
     metricLabel: "Time Saved",
     gradient: "from-primary-500 to-primary-600"
   },
   {
-    title: "Higher Success Rate",
+    title: "Wider Reach",
     description: "AI-driven matching leads to better collaboration outcomes",
-    metric: "95%",
-    metricLabel: "Deal Success",
+    icon: "🚀",
+    metricLabel: "Reach",
     gradient: "from-secondary-500 to-secondary-600"
   },
   {
     title: "Cost Efficient",
     description: "Reduce operational costs with automated negotiations",
-    metric: "60%",
+    icon: "💰",
     metricLabel: "Cost Reduction",
     gradient: "from-accent-500 to-accent-600"
   }
@@ -33,9 +33,6 @@ export default function Benefits() {
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
             Transform Your Influencer Marketing
           </h2>
-          <p className="text-lg text-neutral-300 max-w-2xl mx-auto">
-            Real results from brands using Flow
-          </p>
         </div>
 
         <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
@@ -46,11 +43,8 @@ export default function Benefits() {
             >
               <div className={`w-20 h-20 bg-gradient-to-br ${benefit.gradient} rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg`}>
                 <div className="text-2xl font-bold text-white">
-                  {benefit.metric}
+                  {benefit.icon}
                 </div>
-              </div>
-              <div className="text-sm text-neutral-500 font-medium mb-4">
-                {benefit.metricLabel}
               </div>
               <h3 className="text-xl font-semibold text-neutral-900 mb-3">
                 {benefit.title}
