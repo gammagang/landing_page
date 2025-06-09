@@ -87,7 +87,7 @@ export default function Footer() {
         </div>
         <div className="mt-8 border-t border-neutral-700 pt-8">
           <p className="text-base text-neutral-400 text-center">
-            © 2024 Flow. All rights reserved.
+            © 2025 Flow. All rights reserved.
           </p>
         </div>
       </div>
