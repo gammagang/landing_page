@@ -8,8 +8,8 @@ const faqs = [
     answer: "You set your negotiation guidelines, budget ranges, and brand requirements upfront. Our AI follows these parameters exactly while adapting to the conversation flow. You maintain full control over what terms are acceptable."
   },
   {
-    question: "Is this replacing human relationships in marketing?",
-    answer: "Not at all! We're automating the tedious negotiation process so you can focus on building authentic relationships with creators. The AI handles logistics while you focus on creative collaboration and brand storytelling."
+    question: "Which languages does the AI support?",
+    answer: "We support English and Hindi. We're working on adding more languages soon."
   },
   {
     question: "When will the platform be available?",

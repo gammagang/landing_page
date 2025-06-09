@@ -17,18 +17,7 @@ export default function MultiAudienceBenefits() {
         "Professional results from day one"
       ]
     },
-    {
-      title: "Agencies",
-      icon: "🎯", 
-      tagline: "Scale your operations 10x with AI automation",
-      description: "Impress clients with cutting-edge technology",
-      benefits: [
-        "Handle 10x more campaigns with same team",
-        "Reduce manual discovery and outreach by 90%",
-        "Consistent quality across all client accounts",
-        "Stay ahead of competition with AI advantage"
-      ]
-    },
+    
     {
       title: "Creators",
       icon: "✨",

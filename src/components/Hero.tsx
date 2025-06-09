@@ -16,23 +16,17 @@ export default function Hero() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32">
         <div className="text-center">
           <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-neutral-900 mb-6">
-            Your AI Manager that handles everything.
+              Find Creators That Match Your Vibe
           </h1>
           <p className="text-xl md:text-2xl max-w-4xl mx-auto text-neutral-600 mb-8">
-            From finding perfect creators to closing deals over AI voice calls, Flow automates your entire influencer marketing journey in minutes, not weeks.
+          A platform built for budding creators and brands. Get your niche brand collabs in minutes.
           </p>
           
-          {/* Trust Indicator */}
-          <div className="mb-10">
-            <p className="text-sm text-neutral-500 mb-6">
-              Join 500+ brands and creators already on the waitlist
-            </p>
-          </div>
 
           {/* Dual CTAs */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <a
-              href="#waitlist"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSfGgbqm9hsa9BwxJUJqz2nL4KgY5z2HV-uZZGjgm_plrhGang/viewform"
               className="w-full sm:w-auto rounded-full bg-accent-500 text-white px-8 py-4 text-lg font-semibold hover:bg-accent-600 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
             >
               Join the Waitlist

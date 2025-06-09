@@ -85,14 +85,10 @@ export default function AICallSection() {
 
             {/* CTAs */}
             <div className="mt-8 flex flex-col sm:flex-row gap-4">
+            
               <a
-                href="#waitlist"
-                className="inline-flex items-center justify-center px-6 py-3 rounded-lg bg-accent-500 text-white font-semibold hover:bg-accent-600 transition-colors duration-200 shadow-lg hover:shadow-xl"
-              >
-                Get Your Own AI Negotiator
-              </a>
-              <a
-                href="#waitlist"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSfGgbqm9hsa9BwxJUJqz2nL4KgY5z2HV-uZZGjgm_plrhGang/viewform"
+
                 className="inline-flex items-center justify-center px-6 py-3 rounded-lg border-2 border-primary-500 text-primary-600 font-semibold hover:bg-primary-500 hover:text-white transition-all duration-200"
               >
                 Join the Waitlist
