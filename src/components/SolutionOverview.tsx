@@ -59,11 +59,11 @@ export default function SolutionOverview() {
             Interactive workflow diagram coming soon
           </p>
           <div className="flex justify-center items-center space-x-4 text-neutral-300">
-            <div className="w-8 h-8 bg-primary-200 rounded-full flex items-center justify-center">1</div>
+            <div className="w-8 h-8 rounded-full flex items-center justify-center" style={{ backgroundColor: '#f58142' }}>1</div>
             <div className="w-12 h-0.5 bg-neutral-200"></div>
-            <div className="w-8 h-8 bg-secondary-200 rounded-full flex items-center justify-center">2</div>
+            <div className="w-8 h-8 rounded-full flex items-center justify-center" style={{ backgroundColor: '#f55142' }}>2</div>
             <div className="w-12 h-0.5 bg-neutral-200"></div>
-            <div className="w-8 h-8 bg-accent-200 rounded-full flex items-center justify-center">3</div>
+            <div className="w-8 h-8 rounded-full flex items-center justify-center" style={{ backgroundColor: '#4257f5' }}>3</div>
           </div>
         </div>
       </div>
