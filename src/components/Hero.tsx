@@ -29,7 +29,7 @@ export default function Hero() {
               href="https://docs.google.com/forms/d/e/1FAIpQLSfGgbqm9hsa9BwxJUJqz2nL4KgY5z2HV-uZZGjgm_plrhGang/viewform"
               className="w-full sm:w-auto rounded-full bg-accent-500 text-white px-8 py-4 text-lg font-semibold hover:bg-accent-600 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
             >
-              Join the Waitlist
+              Fill out the form
             </a>
             <a
               href="#demo"
